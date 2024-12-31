@@ -13,41 +13,28 @@
     margin: 20px auto;
     display: inline-block;
   ">
-  BOTGHOST STATUS REMOVER AND SPAM RESPONSE 
+  Project License Agreement
   <br>
   <span style="font-size: 1.2em; color: #ffeb3b;">
-    "WAG SPAM KUPAL KABA BOSS {user}?!"
+    "License Name: Saito(javinrjj)"
   </span>
 </h1>
 
-<p align="center">
-  <a href="https://discord.gg/zyjnMDyy">
-    <img src="https://img.shields.io/badge/Discord-Join-blue?style=flat-square&logo=discord"
-      alt="Join Discord" />
-  </a>
-</p>
+Terms of Use
+Permission to Use:
+This software and its associated source code files are provided under the terms of this license, allowing individuals to use, modify, and distribute the code freely under the following conditions.
 
+Attribution:
+Proper credit must be given to the original author(s). This includes:
 
-<h1 align="center">🎉 Guide to Set Up Hosting Service 🎉</h1>
+Including this license in all copies or substantial portions of the code.
+Citing the author in any related publications or announcements.
+Modifications:
+Any modifications to the original code must be clearly documented and attributed to the modifying party.
 
-<h3 align="center">Welcome to the hosting setup guide! Follow the steps below to easily deploy your project online. If you have any questions, feel free to join our Discord server for further discussions and assistance.</h3>
+Commercial Use:
+[Specify whether your code can or cannot be used for commercial purposes.]
 
-1️⃣ Choose a Hosting Platform 🌐
-Visit your preferred hosting platform. For this guide, we are using Render(https://render.com/) to host your project. It’s simple, reliable, and fast!
-
-2️⃣ Configure Your Repository 📂
-Once you’re on Render, navigate to the Build & Deploy section.
-Input the URL of your GitHub repository. This will link your code to the hosting platform for easy deployment.
-
-3️⃣ Final Touches ✨
-Ensure that all your project files are committed to your GitHub repository.
-Hit Deploy, and watch your project come to life!
-
-💡 Tip: For smoother deployment, check that all necessary configurations (like environment variables) are set.
-
-🖋 Created by
-Saito (javinarjj)
-
-This guide will help you get started with hosting your web projects in no time! 🚀
-Join our Discord community for any questions or collaboration opportunities.
+Liability Disclaimer:
+The software is provided "as is," without any warranty of any kind, express or implied. In no event shall the authors be liable for any claim, damages, or other liability arising from its use.
 
