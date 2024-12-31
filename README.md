@@ -27,9 +27,9 @@
 </p>
 
 
-<center><h1 align="center">🎉 Guide to Set Up Hosting Service 🎉</h1></center>
+<h1 align="center">🎉 Guide to Set Up Hosting Service 🎉</h1>
 
-Welcome to the hosting setup guide! Follow the steps below to easily deploy your project online. If you have any questions, feel free to join our Discord server for further discussions and assistance.
+<h1 align="center">Welcome to the hosting setup guide! Follow the steps below to easily deploy your project online. If you have any questions, feel free to join our Discord server for further discussions and assistance.</h1>
 
 1️⃣ Choose a Hosting Platform 🌐
 Visit your preferred hosting platform. For this guide, we are using Render to host your project. It’s simple, reliable, and fast!
