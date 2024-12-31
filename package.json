@@ -1,7 +1,7 @@
 {
   "name": "Saito",
   "version": "3.0.0",
-  "description": "dynamic status and heartbeat",
+  "description": "BOTGHOST STATUS REMOVER AND SPAM RESPONSE",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
