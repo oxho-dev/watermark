@@ -1,30 +1,35 @@
-/*
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-                                                 
-  _________ ___ ___ ._______   _________    
- /   _____//   |   \|   \   \ /   /  _  \   
- \_____  \/    ~    \   |\   Y   /  /_\  \  
- /        \    Y    /   | \     /    |    \ 
-/_______  /\___|_  /|___|  \___/\____|__  / 
-        \/       \/                     \/  
-                    
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
-                                                                       
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-
-
-*/
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
 
-const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds
-  ],
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
+const messageCounts = new Map();
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('messageCreate', (message) => {
+    if (message.author.bot) return; // Ignore bot messages
+
+    const userId = message.author.id;
+    const userMessageData = messageCounts.get(userId) || { count: 0, timer: null };
+
+    userMessageData.count += 1;
+
+    if (userMessageData.count >= 5) {
+        message.channel.send(`WAG SPAM KUPAL KABA BOSS ${message.author}?!`);
+        userMessageData.count = 0; // Reset the counter after sending the warning
+    }
+
+    if (!userMessageData.timer) {
+        userMessageData.timer = setTimeout(() => {
+            messageCounts.delete(userId); // Remove the user from tracking after inactivity
+        }, 10000); // Adjust this timeout (e.g., 10 seconds) as needed
+    }
+
+    messageCounts.set(userId, userMessageData);
 });
 
 const app = express();
@@ -80,23 +85,3 @@ client.once('ready', () => {
 });
 
 login();
-
-  
-/*
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-                                                 
-  _________ ___ ___ ._______   _________    
- /   _____//   |   \|   \   \ /   /  _  \   
- \_____  \/    ~    \   |\   Y   /  /_\  \  
- /        \    Y    /   | \     /    |    \ 
-/_______  /\___|_  /|___|  \___/\____|__  / 
-        \/       \/                     \/  
-                    
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
-                                                                       
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-
-
-*/
