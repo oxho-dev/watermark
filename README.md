@@ -27,7 +27,8 @@
 </p>
 
 
-<center><h1>🎉 Guide to Set Up Hosting Service 🎉</h1></center>
+<center><h1 align="center">🎉 Guide to Set Up Hosting Service 🎉</h1></center>
+
 Welcome to the hosting setup guide! Follow the steps below to easily deploy your project online. If you have any questions, feel free to join our Discord server for further discussions and assistance.
 
 1️⃣ Choose a Hosting Platform 🌐
