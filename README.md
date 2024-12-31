@@ -27,12 +27,25 @@
 </p>
 
 
-## Guide
+<center><h1>🎉 Guide to Set Up Hosting Service 🎉</h1></center>
+Welcome to the hosting setup guide! Follow the steps below to easily deploy your project online. If you have any questions, feel free to join our Discord server for further discussions and assistance.
 
-###  Set Up Hosting Service
+1️⃣ Choose a Hosting Platform 🌐
+Visit your preferred hosting platform. For this guide, we are using Render to host your project. It’s simple, reliable, and fast!
 
-1. Navigate to your preferred hosting platform. For this guide, we have selected [Render]. (https://render.com/)
-2. Within the Build & Deploy section, input the URL of your repository.
+2️⃣ Configure Your Repository 📂
+Once you’re on Render, navigate to the Build & Deploy section.
+Input the URL of your GitHub repository. This will link your code to the hosting platform for easy deployment.
 
-Please join my Discord server for further questions or discussions.
+3️⃣ Final Touches ✨
+Ensure that all your project files are committed to your GitHub repository.
+Hit Deploy, and watch your project come to life!
+
+💡 Tip: For smoother deployment, check that all necessary configurations (like environment variables) are set.
+
+🖋 Created by
+Saito (javinarjj)
+
+This guide will help you get started with hosting your web projects in no time! 🚀
+Join our Discord community for any questions or collaboration opportunities.
 
