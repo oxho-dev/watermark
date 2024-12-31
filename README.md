@@ -1,5 +1,21 @@
-<h1 align="center" style="font-family: Arial, sans-serif; color: #FF6F61; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-  BOTGHOST STATUS REMOVER
+<h1 
+  align="center" 
+  style="
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff; 
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
+    padding: 20px; 
+    border-radius: 12px; 
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    display: inline-block;
+  ">
+  BOTGHOST STATUS REMOVER AND SPAM RESPONSE 
+  <br>
+  <span style="font-size: 1.2em; color: #ffeb3b;">
+    "WAG SPAM KUPAL KABA BOSS {user}?!"
+  </span>
 </h1>
 
 <p align="center">
@@ -14,7 +30,9 @@
 
 ###  Set Up Hosting Service
 
-1. Go to your preferred hosting service. For this guide, we use [Render](https://render.com/).
-2. In the Build & Deploy section, paste your repository URL.
+1. Navigate to your preferred hosting platform. For this guide, we have selected [Render]. (https://render.com/)
+2. Within the Build & Deploy section, input the URL of your repository.
 
 Please join my Discord server for further questions or discussions.
+
+
